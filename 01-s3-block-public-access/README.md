@@ -17,7 +17,7 @@ The bucket `precious-demo-compliance-bucket` was created with all four Block Pub
 
 ## Verification
 
-The Permissions tab now shows **Block all public access: On** ✅, confirming the bucket and its objects can no longer be exposed publicly through ACLs or policies.
+The Permissions tab now shows **Block all public access: On**, confirming the bucket and its objects can no longer be exposed publicly through ACLs or policies.
 
 ## Evidence
 
