@@ -1,7 +1,7 @@
 
 ## Finding 1: S3 Bucket — Block Public Access Not Enabled
 Risk
-An S3 bucket without Block Public Access enabled can be exposed to the internet if a bucket policy or ACL is misconfigured even by accident. This is one of the most common causes of real-world data leaks, which is why it's a standard check in compliance frameworks like the one used in this audit (Drata).
+An S3 bucket without Block Public Access enabled can be exposed to the internet if a bucket policy or ACL is misconfigured even by accident. This is one of the most common causes of real world data leaks, which is why it's a standard check in compliance frameworks like the one used in this audit (Drata).
 What I Found
 The bucket precious-demo-compliance-bucket was created with all four Block Public Access settings turned off, meaning public access through ACLs or bucket policies was possible if applied.
 
